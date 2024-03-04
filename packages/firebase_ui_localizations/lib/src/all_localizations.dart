@@ -27,3 +27,5 @@ export 'lang/tr.dart';
 export 'lang/uk.dart';
 export 'lang/zh.dart';
 export 'lang/zh_tw.dart';
+export 'lang/sv.dart';
+export 'lang/da.dart';

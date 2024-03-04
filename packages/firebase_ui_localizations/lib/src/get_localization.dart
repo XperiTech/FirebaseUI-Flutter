@@ -30,6 +30,8 @@ final Set<String> kSupportedLanguages = {
   'tr', // Turkish
   'uk', // Ukrainian
   'zh', // Chinese
+  'sv', // Swedish
+  'da', // Danish
 };
 
 FirebaseUILocalizationLabels getFirebaseUITranslation(
@@ -93,6 +95,10 @@ FirebaseUILocalizationLabels getFirebaseUITranslation(
       return const TrLocalizations();
     case 'uk':
       return const UkLocalizations();
+    case 'sv':
+      return const SvLocalizations();
+    case 'da':
+      return const DaLocalizations();
     case 'zh':
       switch (locale.scriptCode) {
         case 'Hant':
