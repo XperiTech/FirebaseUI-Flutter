@@ -5,6 +5,7 @@ import 'dart:ui';
 
 import "./default_localizations.dart";
 import 'lang/ar.dart';
+import 'lang/da.dart';
 import 'lang/de.dart';
 import 'lang/en.dart';
 import 'lang/es.dart';
@@ -23,6 +24,7 @@ import 'lang/pl.dart';
 import 'lang/pt.dart';
 import 'lang/ro.dart';
 import 'lang/ru.dart';
+import 'lang/sv.dart';
 import 'lang/th.dart';
 import 'lang/tr.dart';
 import 'lang/uk.dart';
@@ -51,6 +53,8 @@ final Set<String> kSupportedLanguages = {
   'tr', // Turkish
   'uk', // Ukrainian
   'zh', // Chinese
+  'sv', // Swedish
+  'da', // Danish
 };
 
 FirebaseUILocalizationLabels getFirebaseUITranslation(
@@ -111,6 +115,10 @@ FirebaseUILocalizationLabels getFirebaseUITranslation(
       return const TrLocalizations();
     case 'uk':
       return const UkLocalizations();
+    case 'sv':
+      return const SvLocalizations();
+    case 'da':
+      return const DaLocalizations();
     case 'zh':
       switch (locale.scriptCode) {
         case 'Hant':
