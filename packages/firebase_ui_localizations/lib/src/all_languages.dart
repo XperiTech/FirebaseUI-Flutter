@@ -44,6 +44,7 @@ final Set<String> kSupportedLanguages = {
   'it', // Italian
   'ja', // Japanese
   'ko', // Korean
+  'nb', // Norwegian Bokmål
   'nl', // Dutch Flemish
   'pl', // Polish
   'pt', // Portuguese
