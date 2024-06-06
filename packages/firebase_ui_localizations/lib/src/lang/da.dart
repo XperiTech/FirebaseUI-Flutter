@@ -335,4 +335,7 @@ class DaLocalizations extends FirebaseUILocalizationLabels {
 
   @override
   String get confirmDeleteAccountButtonLabel => "Ja, slet";
+
+  @override
+  String get sendVerificationEmailLabel => "Send bekræftelsesmail";
 }

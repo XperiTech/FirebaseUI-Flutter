@@ -335,4 +335,7 @@ class SvLocalizations extends FirebaseUILocalizationLabels {
 
   @override
   String get confirmDeleteAccountButtonLabel => "Ja, radera";
+
+  @override
+  String get sendVerificationEmailLabel => "Skicka verifierings-e-post";
 }

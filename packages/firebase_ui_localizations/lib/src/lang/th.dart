@@ -333,4 +333,7 @@ class ThLocalizations extends FirebaseUILocalizationLabels {
 
   @override
   String get confirmDeleteAccountButtonLabel => "Yes, delete";
+
+  @override
+  String get sendVerificationEmailLabel => "Send verification email";
 }

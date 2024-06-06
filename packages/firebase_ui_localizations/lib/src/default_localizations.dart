@@ -243,6 +243,9 @@ abstract class FirebaseUILocalizationLabels {
   /// Used as a label of the submit button on the EmailLinkSignInView.
   String get sendLinkButtonLabel;
 
+  /// Used as a button label to send a verification email
+  String get sendVerificationEmailLabel;
+
   /// Used as a label of the EmailForm submit button when the AuthAction is
   /// AuthAction.signIn.
   String get signInActionText;
